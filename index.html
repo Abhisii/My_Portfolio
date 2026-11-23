@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abhishek Sharma - Software Developer</title>
+    <title>Abhishek Sharma - Backend Engineer (SDE)</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
         * {
@@ -76,7 +76,6 @@
             align-items: center;
             justify-content: center;
             text-align: center;
-            color: white;
             position: relative;
             padding-top: 120px;
         }
@@ -164,6 +163,7 @@
             font-size: 4rem;
             color: white;
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            object-fit: cover;
         }
 
         .about-text p {
@@ -377,6 +377,15 @@
             font-size: 1.5rem;
         }
 
+        .contact-item a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .contact-item a:hover {
+            text-decoration: underline;
+        }
+
         .social-links {
             display: flex;
             justify-content: center;
@@ -481,7 +490,7 @@
     <section id="home" class="hero">
         <div class="hero-content">
             <h1>Hi, I'm Abhishek Sharma</h1>
-            <h2>Software Developer | Problem Solver | Tech Enthusiast</h2>
+            <h2>Backend Engineer (SDE) | Java, Spring Boot, Microservices &amp; Spring AI | Claude Certified Developer</h2>
             <a href="#about" class="cta-button">Learn More About Me</a>
             <!-- <a href="Abhishek_sharma_Resume.pdf" class="cta-button" download>Download Resume</a> -->
         </div>
@@ -494,13 +503,13 @@
             <div class="about-content fade-in">
                 <div class="about-image">
                     <div class="profile-img">
-                        <img class="profile-img" src="photo_2023-12-28_15-09-34.jpg">
+                        <img class="profile-img" src="photo_2023-12-28_15-09-34.jpg" alt="Abhishek Sharma">
                     </div>
                 </div>
                 <div class="about-text">
-                    <p>I am a Software Developer with a strong focus on backend development. Currently I am doing a 6-month internship at a fintech startup called SabPaisa where I am contributing to several projects, including a bank integration system.</p>
-                    <p>I've built a solid foundation in Java development including Spring Boot, MySQL, and React. I recently graduated with a B.Tech from Netaji Subhas University of Technology (NSUT). </p>
-                    <p>I'm passionate about building scalable systems, optimizing performance, and creating efficient solutions for complex business problems in any domain.</p>
+                    <p>I am a Backend Engineer specializing in <strong>Java, Spring Boot, Microservices, and AI-powered RAG architectures</strong>. A B.Tech graduate from Netaji Subhas University of Technology (NSUT'25), I currently work at Tata Consultancy Services (TCS) following my backend engineering tenure at fintech startup SabPaisa.</p>
+                    <p>My production work spans encrypted corporate net banking APIs, real-time fraud risk detection engines built with Drools and Redis, and retrieval-augmented AI knowledge backends powered by Spring AI and PostgreSQL (PGVector).</p>
+                    <p>I hold the <strong>Anthropic Claude Certified Developer – Foundations</strong> certification and an <strong>NPTEL Gold Medal (90%+) in Programming in Java</strong>, with a strong focus on Low-Level Design (LLD), clean architecture, and scalable backend performance.</p>
                 </div>
             </div>
         </div>
@@ -510,34 +519,36 @@
     <section id="experience" class="experience">
         <div class="container">
             <h2 class="section-title fade-in">Experience</h2>
+
             <div class="experience-item fade-in">
                 <div class="job-header">
                     <div>
-                        <div class="job-title">System Engineer</div>
-                        <div class="company">Tata Consultancy Services</div>
+                        <div class="job-title">System Engineer — Java Backend Developer</div>
+                        <div class="company">Tata Consultancy Services (TCS) · Noida</div>
                     </div>
                     <div class="duration">Nov 2025 – Present</div>
                 </div>
                 <ul class="job-description">
-                    <li>Resolved 50+ incidents and service requests on ServiceNow, maintaining 95%+ SLA compliance. </li>
-                    <li>Collaborated with cross-functional teams to support 20+ business applications, improving issue resolution turnaround time by 25%.</li>
-                    <li>Configured and maintained ServiceNow workflows, forms, and catalog items, enhancing operational efficiency by 15%.</li>
+                    <li>Engineered and maintained production backend integrations and enterprise RESTful workflows, ensuring reliable API communication and strict SLA adherence across mission-critical applications.</li>
+                    <li>Investigated and resolved 50+ production incidents and service requests on ServiceNow, maintaining 95%+ SLA compliance and high system uptime.</li>
+                    <li>Collaborated with cross-functional engineering teams to support 20+ enterprise business applications, reducing issue resolution turnaround time by 25%.</li>
+                    <li>Configured and streamlined ServiceNow workflows and operational automation, improving day-to-day team efficiency by 15%.</li>
                 </ul>
             </div>
+
             <div class="experience-item fade-in">
                 <div class="job-header">
                     <div>
-                        <div class="job-title">Software Engineering Intern</div>
-                        <div class="company">SabPaisa</div>
+                        <div class="job-title">Software Developer (Converted from Technical Intern)</div>
+                        <div class="company">SabPaisa · New Delhi</div>
                     </div>
                     <div class="duration">Jan 2025 – Nov 2025</div>
                 </div>
                 <ul class="job-description">
-                    <li>Contributed to SBI corporate net banking integration with 8+ RESTful APIs, collaborating with SBI teams to ensure seamless system communication</li>
-                    <li>Conducted PoCs on Drools and Easy Rules engines, benchmarking efficiency and execution time for integration into the FRM rule engine system</li>
-                    <li>Applied Drools rule engine and Redis cache to build a scalable rule management system, improving rule execution efficiency by 30%</li>
-                    <li>Onboarded 1700+ merchants manually into the FRM system, validating merchant data and aligning with fraud detection policies</li>
-                    <li>Collaborated with product team to define 20+ business rules and aligned with frontend team to ensure accurate rule execution</li>
+                    <li>Contributed to SBI corporate net banking integration by developing 8+ secure RESTful APIs with AES (CBC/PKCS5) payload encryption and decryption in collaboration with SBI engineering teams.</li>
+                    <li>Architected an end-to-end Fraud Risk Management (FRM) rule engine using Spring Boot, Drools, and Redis caching, improving rule evaluation efficiency by 30%.</li>
+                    <li>Conducted PoCs benchmarking Drools and Easy Rules engines for execution latency and throughput before production rollout.</li>
+                    <li>Collaborated with product and frontend teams to define 20+ configurable business risk rules and onboarded 1,700+ merchants into the FRM system with validated compliance data.</li>
                 </ul>
             </div>
 
@@ -550,10 +561,9 @@
                     <div class="duration">Jun 2024 – Aug 2024</div>
                 </div>
                 <ul class="job-description">
-                    <li>Developed 4+ responsive web applications using React.js and Tailwind CSS, optimizing for performance and cross-device compatibility</li>
-                    <li>Managed 4 client-facing projects end-to-end, gathering requirements, providing regular updates, and delivering on project timelines</li>
-                    <li>Designed and deployed reusable UI components to enhance content structure and improve user engagement across client websites</li>
-                    <li>Led a team of 5+ using Notion for sprint planning, boosting project transparency, task ownership, and collaboration efficiency</li>
+                    <li>Developed 4+ responsive web applications using React.js and Tailwind CSS, optimizing for load performance and cross-device compatibility.</li>
+                    <li>Managed 4 client-facing projects end-to-end, gathering requirements, coordinating sprint updates, and delivering on schedule.</li>
+                    <li>Designed reusable UI components and led a 5+ member team using Notion for sprint planning, improving task ownership and delivery visibility.</li>
                 </ul>
             </div>
         </div>
@@ -564,24 +574,47 @@
         <div class="container">
             <h2 class="section-title fade-in">Projects</h2>
             <div class="projects-grid">
-                
+
                 <div class="project-card fade-in">
                     <div class="project-header">
-                        <h3 class="project-title">Risk-IQ System</h3>
-                        <p>Drools-based Transaction Risk Management System</p>
+                        <h3 class="project-title">Second Brain — AI Knowledge Base</h3>
+                        <p>Production RAG Backend with Spring AI, PGVector &amp; Redis</p>
                     </div>
                     <div class="project-content">
                         <ul class="project-features">
-                            <li>Built a Drools-based rule engine using Spring Boot to dynamically evaluate transactions</li>
-                            <li>Reduced manual rule configuration effort by 70%</li>
-                            <li>Integrated 10+ RESTful APIs coordinating between MySQL database and frontend</li>
-                            <li>Achieved sub-500ms transaction evaluation against 500+ rules</li>
-                            <li>Automatically generates cases for suspicious transactions to streamline fraud investigation</li>
+                            <li>Engineered a Retrieval-Augmented Generation (RAG) backend using Java, Spring Boot, and Spring AI for semantic document Q&amp;A</li>
+                            <li>Designed an extensible Strategy Pattern document ingestion pipeline for PDF and TXT files with 500-token chunking and source metadata attribution</li>
+                            <li>Implemented cosine similarity vector retrieval in PostgreSQL (PGVector) to ground LLM responses and eliminate hallucinations</li>
+                            <li>Added a Redis cache-aside layer for repeated queries to cut redundant embedding/LLM API costs and reduce response latency</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">Spring AI</span>
+                            <span class="tech-tag">PostgreSQL (PGVector)</span>
+                            <span class="tech-tag">Redis</span>
+                            <span class="tech-tag">RAG</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in">
+                    <div class="project-header">
+                        <h3 class="project-title">Risk-IQ System</h3>
+                        <p>Drools-Based Real-Time Transaction Risk Engine</p>
+                    </div>
+                    <div class="project-content">
+                        <ul class="project-features">
+                            <li>Built a Drools-based rule engine in Spring Boot to evaluate real-time payment transactions dynamically</li>
+                            <li>Reduced manual rule configuration effort by 70% through modular, hot-configurable business rules</li>
+                            <li>Integrated 10+ RESTful APIs coordinating MySQL persistence, Redis caching, and frontend case management</li>
+                            <li>Achieved sub-500ms transaction evaluation against 500+ rules with automated suspicious-case generation</li>
                         </ul>
                         <div class="tech-stack">
                             <span class="tech-tag">Java</span>
                             <span class="tech-tag">Spring Boot</span>
                             <span class="tech-tag">Drools</span>
+                            <span class="tech-tag">Redis</span>
                             <span class="tech-tag">MySQL</span>
                             <span class="tech-tag">REST API</span>
                         </div>
@@ -590,23 +623,41 @@
 
                 <div class="project-card fade-in">
                     <div class="project-header">
-                        <h3 class="project-title">Resume Evaluator System</h3>
-                        <p>Automated Resume Screening Platform</p>
+                        <h3 class="project-title">Hinglish-to-Hindi Screen Translator</h3>
+                        <p>Real-Time Mobile Overlay &amp; Spring Boot LLM Client</p>
                     </div>
                     <div class="project-content">
                         <ul class="project-features">
-                            <li>Built rule-based scoring engine using Spring Boot and MySQL</li>
-                            <li>Automated evaluation of 50+ resumes with keyword matching</li>
-                            <li>Enabled CRUD operations for 100+ dynamic rules</li>
-                            <li>Real-time React.js frontend integration</li>
-                            <li>Reduced manual resume screening time by 80%</li>
+                            <li>Built an Android floating overlay tool for instant on-screen translation from Hinglish to Devanagari Hindi</li>
+                            <li>Developed a dedicated Spring Boot backend API client integrating OpenRouter and Groq LLMs for low-latency inference</li>
+                            <li>Decoupled mobile capture from prompt orchestration to support swappable LLM providers and clean rate handling</li>
                         </ul>
                         <div class="tech-stack">
                             <span class="tech-tag">Java</span>
                             <span class="tech-tag">Spring Boot</span>
-                            <span class="tech-tag">MySQL</span>
-                            <span class="tech-tag">React.js</span>
-                            <span class="tech-tag">PDF Processing</span>
+                            <span class="tech-tag">Android</span>
+                            <span class="tech-tag">OpenRouter / Groq LLMs</span>
+                            <span class="tech-tag">REST API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in">
+                    <div class="project-header">
+                        <h3 class="project-title">Daily Expense Tracker</h3>
+                        <p>Cross-Platform Flutter App with Google Sheets Sync</p>
+                    </div>
+                    <div class="project-content">
+                        <ul class="project-features">
+                            <li>Developed a lightweight personal finance mobile application in Flutter for fast daily expense logging</li>
+                            <li>Integrated live two-way spreadsheet persistence using the Google Sheets API and GCP service account authentication</li>
+                            <li>Structured clean category tracking and zero-cost cloud storage without maintaining a separate database server</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Flutter</span>
+                            <span class="tech-tag">Dart</span>
+                            <span class="tech-tag">Google Sheets API</span>
+                            <span class="tech-tag">Google Cloud</span>
                         </div>
                     </div>
                 </div>
@@ -620,35 +671,48 @@
         <div class="container">
             <h2 class="section-title fade-in">Skills</h2>
             <div class="skills-grid">
-                
+
                 <div class="skill-category fade-in">
-                    <h3><i class="fas fa-code"></i> Technical Skills</h3>
+                    <h3><i class="fas fa-server"></i> Backend &amp; AI Engineering</h3>
                     <div class="skill-list">
-                        <span class="skill-item">Java</span>
-                        <span class="skill-item">SQL</span>
+                        <span class="skill-item">Java (8/17+)</span>
                         <span class="skill-item">Spring Boot</span>
-                        <span class="skill-item">Drools</span>
+                        <span class="skill-item">Spring AI</span>
+                        <span class="skill-item">RAG</span>
                         <span class="skill-item">Microservices</span>
-                        <span class="skill-item">Rest APIs</span>
-                        <span class="skill-item">Spring JPA</span>
+                        <span class="skill-item">REST APIs</span>
+                        <span class="skill-item">Hibernate / JPA</span>
+                        <span class="skill-item">Drools</span>
                         <span class="skill-item">OOPs</span>
-                        <span class="skill-item">MySQL</span>
-                        <span class="skill-item">PostreSQL</span>
-                        <span class="skill-item">Git</span>
-                        <span class="skill-item">GitHub</span>
-                        <span class="skill-item">Maven</span>
-                        <span class="skill-item">Postman</span>
-                        <span class="skill-item">Swagger</span>
+                        <span class="skill-item">Low-Level Design</span>
+                        <span class="skill-item">DSA</span>
                     </div>
                 </div>
 
                 <div class="skill-category fade-in">
-                    <h3><i class="fas fa-lightbulb"></i> Soft Skills</h3>
+                    <h3><i class="fas fa-database"></i> Databases, Caching &amp; Cloud</h3>
                     <div class="skill-list">
-                        <span class="skill-item">Problem Solving</span>
-                        <span class="skill-item">Team Collaboration</span>
-                        <span class="skill-item">Communication</span>
-                        <span class="skill-item">Leadership</span>
+                        <span class="skill-item">PostgreSQL (PGVector)</span>
+                        <span class="skill-item">MySQL</span>
+                        <span class="skill-item">SQL</span>
+                        <span class="skill-item">Redis</span>
+                        <span class="skill-item">Apache Kafka</span>
+                        <span class="skill-item">AWS (EC2, S3, IAM)</span>
+                        <span class="skill-item">Docker</span>
+                    </div>
+                </div>
+
+                <div class="skill-category fade-in">
+                    <h3><i class="fas fa-tools"></i> Tools, Mobile &amp; Credentials</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">Git &amp; GitHub</span>
+                        <span class="skill-item">Maven</span>
+                        <span class="skill-item">Postman</span>
+                        <span class="skill-item">Swagger</span>
+                        <span class="skill-item">Flutter</span>
+                        <span class="skill-item">React.js</span>
+                        <span class="skill-item">Claude Certified Developer</span>
+                        <span class="skill-item">NPTEL Java Gold (90%+)</span>
                     </div>
                 </div>
 
@@ -678,9 +742,10 @@
                     </div>
                 </div>
                 <div class="social-links">
-                    <a href="https://www.linkedin.com/in/abhishek-sharma-804631207/" class="social-link" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/abhishek-sharma021202/" class="social-link" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
                     <a href="https://github.com/Abhisii" class="social-link" title="GitHub" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
                     <a href="https://leetcode.com/u/abhishekyosh264/" class="social-link" title="LeetCode" target="_blank" rel="noopener noreferrer"><i class="fas fa-code"></i></a>
+                    <a href="https://www.credly.com/badges/6aeb7bb2-d87b-44b8-a804-2484b97bbab1" class="social-link" title="Claude Certified Developer Badge" target="_blank" rel="noopener noreferrer"><i class="fas fa-certificate"></i></a>
                 </div>
             </div>
         </div>
@@ -734,7 +799,7 @@
             card.addEventListener('mouseenter', function() {
                 this.style.transform = 'translateY(-10px) scale(1.02)';
             });
-            
+
             card.addEventListener('mouseleave', function() {
                 this.style.transform = 'translateY(0) scale(1)';
             });
@@ -744,7 +809,7 @@
         const heroTitle = document.querySelector('.hero h1');
         const originalText = heroTitle.textContent;
         heroTitle.textContent = '';
-        
+
         let i = 0;
         function typeWriter() {
             if (i < originalText.length) {
@@ -753,7 +818,7 @@
                 setTimeout(typeWriter, 100);
             }
         }
-        
+
         setTimeout(typeWriter, 1000);
     </script>
 </body>
